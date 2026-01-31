@@ -1,0 +1,137 @@
+[
+    {
+        "entity": "Company A",
+        "category": "materials",
+        "material": "Steel",
+        "weight_kg": 500.0,
+        "emissions_kg_co2e": 820.0,
+        "unit": "kg",
+        "source_file": "sample_materials.csv"
+    },
+    {
+        "entity": "Company B",
+        "category": "materials",
+        "material": "Recycled Steel",
+        "weight_kg": 300.0,
+        "emissions_kg_co2e": 219.0,
+        "unit": "kg",
+        "source_file": "sample_materials.csv"
+    },
+    {
+        "entity": "Company C",
+        "category": "materials",
+        "material": "Aluminum",
+        "weight_kg": 200.0,
+        "emissions_kg_co2e": 1457.0863,
+        "unit": "kg",
+        "source_file": "sample_materials.csv"
+    },
+    {
+        "entity": "Company A",
+        "category": "materials",
+        "material": "Steel",
+        "weight_kg": 750.0,
+        "emissions_kg_co2e": 1230.0,
+        "unit": "kg",
+        "source_file": "sample_materials.csv"
+    },
+    {
+        "entity": "Company D",
+        "category": "materials",
+        "material": "Aluminum",
+        "weight_kg": 150.0,
+        "emissions_kg_co2e": 1092.8147,
+        "unit": "kg",
+        "source_file": "sample_materials.csv"
+    },
+    {
+        "entity": "Company C",
+        "category": "materials",
+        "material": "Steel",
+        "weight_kg": 400.0,
+        "emissions_kg_co2e": 656.0,
+        "unit": "kg",
+        "source_file": "sample_materials.csv"
+    },
+    {
+        "entity": "Company E",
+        "category": "materials",
+        "material": "Recycled Steel",
+        "weight_kg": 250.0,
+        "emissions_kg_co2e": 182.5,
+        "unit": "kg",
+        "source_file": "sample_materials.csv"
+    },
+    {
+        "entity": "Company F",
+        "category": "materials",
+        "material": "Aluminum",
+        "weight_kg": 600.0,
+        "emissions_kg_co2e": 4371.259,
+        "unit": "kg",
+        "source_file": "sample_materials.csv"
+    },
+    {
+        "entity": "Company B",
+        "category": "materials",
+        "material": "Steel",
+        "weight_kg": 900.0,
+        "emissions_kg_co2e": 1476.0,
+        "unit": "kg",
+        "source_file": "sample_materials.csv"
+    },
+    {
+        "entity": "Company D",
+        "category": "materials",
+        "material": "Recycled Steel",
+        "weight_kg": 350.0,
+        "emissions_kg_co2e": 255.5,
+        "unit": "kg",
+        "source_file": "sample_materials.csv"
+    },
+    {
+        "entity": "Company E",
+        "category": "materials",
+        "material": "Aluminum",
+        "weight_kg": 480.0,
+        "emissions_kg_co2e": 3497.0072,
+        "unit": "kg",
+        "source_file": "sample_materials.csv"
+    },
+    {
+        "entity": "Company F",
+        "category": "materials",
+        "material": "Steel",
+        "weight_kg": 620.0,
+        "emissions_kg_co2e": 1016.8,
+        "unit": "kg",
+        "source_file": "sample_materials.csv"
+    },
+    {
+        "entity": "Company A",
+        "category": "materials",
+        "material": "Recycled Steel",
+        "weight_kg": 275.0,
+        "emissions_kg_co2e": 200.75,
+        "unit": "kg",
+        "source_file": "sample_materials.csv"
+    },
+    {
+        "entity": "Company B",
+        "category": "materials",
+        "material": "Aluminum",
+        "weight_kg": 510.0,
+        "emissions_kg_co2e": 3715.5701,
+        "unit": "kg",
+        "source_file": "sample_materials.csv"
+    },
+    {
+        "entity": "Company C",
+        "category": "materials",
+        "material": "Steel",
+        "weight_kg": 840.0,
+        "emissions_kg_co2e": 1377.6,
+        "unit": "kg",
+        "source_file": "sample_materials.csv"
+    }
+]

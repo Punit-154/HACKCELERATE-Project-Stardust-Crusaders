@@ -1,0 +1,9 @@
+{
+    "total_entities": 6,
+    "total_emissions_kg_co2e": 26481.18,
+    "average_emissions_kg_co2e": 4413.53,
+    "category_totals": {
+        "materials": 21567.89,
+        "transport": 4913.29
+    }
+}

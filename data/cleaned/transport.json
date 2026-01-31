@@ -1,0 +1,47 @@
+[
+    {
+        "product": "Steel",
+        "origin": "Chennai",
+        "destination": "Mumbai",
+        "mode": "truck",
+        "weight_kg": 498.95,
+        "distance_km": 804.67,
+        "tonne_km": 401.49
+    },
+    {
+        "product": "Aluminum",
+        "origin": "Kolkata",
+        "destination": "Delhi",
+        "mode": "ship",
+        "weight_kg": 149.69,
+        "distance_km": 1931.21,
+        "tonne_km": 289.07
+    },
+    {
+        "product": "Recycled Steel",
+        "origin": "Hyderabad",
+        "destination": "Pune",
+        "mode": "truck",
+        "weight_kg": 299.37,
+        "distance_km": 1287.47,
+        "tonne_km": 385.43
+    },
+    {
+        "product": "Steel",
+        "origin": "Ahmedabad",
+        "destination": "Chennai",
+        "mode": "ship",
+        "weight_kg": 997.9,
+        "distance_km": 2414.01,
+        "tonne_km": 2408.95
+    },
+    {
+        "product": "Aluminum",
+        "origin": "Bangalore",
+        "destination": "Mumbai",
+        "mode": "truck",
+        "weight_kg": 149.69,
+        "distance_km": 482.8,
+        "tonne_km": 72.27
+    }
+]

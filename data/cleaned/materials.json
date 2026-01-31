@@ -1,0 +1,27 @@
+[
+    {
+        "material": "Steel",
+        "weight_kg": 500.0,
+        "source": "steel_invoice_jan.pdf"
+    },
+    {
+        "material": "Recycled Steel",
+        "weight_kg": 300.0,
+        "source": "steel_invoice_feb.xlsx"
+    },
+    {
+        "material": "Aluminum",
+        "weight_kg": 200.0,
+        "source": "aluminum_invoice_mar.pdf"
+    },
+    {
+        "material": "Steel",
+        "weight_kg": 750.0,
+        "source": "steel_invoice_apr.csv"
+    },
+    {
+        "material": "Aluminum",
+        "weight_kg": 150.0,
+        "source": "aluminum_invoice_may.xlsx"
+    }
+]

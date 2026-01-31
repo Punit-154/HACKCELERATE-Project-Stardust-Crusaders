@@ -1,0 +1,463 @@
+[
+    {
+        "entity": "Company A",
+        "total_emissions_kg_co2e": 2944.7217,
+        "materials_emissions_kg_co2e": 2250.75,
+        "transport_emissions_kg_co2e": 693.9717,
+        "energy_emissions_kg_co2e": 0.0,
+        "breakdown": {
+            "materials": [
+                {
+                    "entity": "Company A",
+                    "category": "materials",
+                    "material": "Steel",
+                    "weight_kg": 500.0,
+                    "emissions_kg_co2e": 820.0,
+                    "unit": "kg",
+                    "source_file": "sample_materials.csv"
+                },
+                {
+                    "entity": "Company A",
+                    "category": "materials",
+                    "material": "Steel",
+                    "weight_kg": 750.0,
+                    "emissions_kg_co2e": 1230.0,
+                    "unit": "kg",
+                    "source_file": "sample_materials.csv"
+                },
+                {
+                    "entity": "Company A",
+                    "category": "materials",
+                    "material": "Recycled Steel",
+                    "weight_kg": 275.0,
+                    "emissions_kg_co2e": 200.75,
+                    "unit": "kg",
+                    "source_file": "sample_materials.csv"
+                }
+            ],
+            "transport": [
+                {
+                    "entity": "Company A",
+                    "category": "transport",
+                    "product": "Steel",
+                    "mode": "ship",
+                    "weight_kg": 997.9,
+                    "distance_km": 2414.01,
+                    "tonne_km": 2408.9464,
+                    "emissions_kg_co2e": 48.851,
+                    "unit": "kg",
+                    "source_file": "sample_transport.csv"
+                },
+                {
+                    "entity": "Company A",
+                    "category": "transport",
+                    "product": "Steel",
+                    "mode": "ship",
+                    "weight_kg": 907.18,
+                    "distance_km": 3540.55,
+                    "tonne_km": 3211.9285,
+                    "emissions_kg_co2e": 65.1347,
+                    "unit": "kg",
+                    "source_file": "sample_transport.csv"
+                },
+                {
+                    "entity": "Company A",
+                    "category": "transport",
+                    "product": "Steel",
+                    "mode": "intermodal",
+                    "weight_kg": 498.95,
+                    "distance_km": 3218.68,
+                    "emissions_kg_co2e": 579.986,
+                    "unit": "kg",
+                    "legs": [
+                        {
+                            "mode": "rail",
+                            "distance_km": 1287.47,
+                            "proportion": 0.4,
+                            "emissions_kg_co2e": 17.8519
+                        },
+                        {
+                            "mode": "ship",
+                            "distance_km": 1287.47,
+                            "proportion": 0.4,
+                            "emissions_kg_co2e": 13.0269
+                        },
+                        {
+                            "mode": "air",
+                            "distance_km": 643.74,
+                            "proportion": 0.2,
+                            "emissions_kg_co2e": 549.1072
+                        }
+                    ],
+                    "source_file": "transport_intermodal_test.csv"
+                }
+            ],
+            "energy": []
+        }
+    },
+    {
+        "entity": "Company B",
+        "total_emissions_kg_co2e": 6641.6301,
+        "materials_emissions_kg_co2e": 5410.5701,
+        "transport_emissions_kg_co2e": 1231.06,
+        "energy_emissions_kg_co2e": 0.0,
+        "breakdown": {
+            "materials": [
+                {
+                    "entity": "Company B",
+                    "category": "materials",
+                    "material": "Recycled Steel",
+                    "weight_kg": 300.0,
+                    "emissions_kg_co2e": 219.0,
+                    "unit": "kg",
+                    "source_file": "sample_materials.csv"
+                },
+                {
+                    "entity": "Company B",
+                    "category": "materials",
+                    "material": "Steel",
+                    "weight_kg": 900.0,
+                    "emissions_kg_co2e": 1476.0,
+                    "unit": "kg",
+                    "source_file": "sample_materials.csv"
+                },
+                {
+                    "entity": "Company B",
+                    "category": "materials",
+                    "material": "Aluminum",
+                    "weight_kg": 510.0,
+                    "emissions_kg_co2e": 3715.5701,
+                    "unit": "kg",
+                    "source_file": "sample_materials.csv"
+                }
+            ],
+            "transport": [
+                {
+                    "entity": "Company B",
+                    "category": "transport",
+                    "product": "Aluminum",
+                    "mode": "rail",
+                    "weight_kg": 226.8,
+                    "distance_km": 1448.41,
+                    "tonne_km": 328.4927,
+                    "emissions_kg_co2e": 9.1288,
+                    "unit": "kg",
+                    "source_file": "sample_transport.csv"
+                },
+                {
+                    "entity": "Company B",
+                    "category": "transport",
+                    "product": "Recycled Steel",
+                    "mode": "air",
+                    "weight_kg": 249.48,
+                    "distance_km": 2253.08,
+                    "tonne_km": 562.0875,
+                    "emissions_kg_co2e": 960.9375,
+                    "unit": "kg",
+                    "source_file": "sample_transport.csv"
+                },
+                {
+                    "entity": "Company B",
+                    "category": "transport",
+                    "product": "Aluminum",
+                    "mode": "intermodal",
+                    "weight_kg": 299.37,
+                    "distance_km": 2414.01,
+                    "emissions_kg_co2e": 260.9937,
+                    "unit": "kg",
+                    "legs": [
+                        {
+                            "mode": "rail",
+                            "distance_km": 965.6,
+                            "proportion": 0.4,
+                            "emissions_kg_co2e": 8.0334
+                        },
+                        {
+                            "mode": "ship",
+                            "distance_km": 965.6,
+                            "proportion": 0.4,
+                            "emissions_kg_co2e": 5.8621
+                        },
+                        {
+                            "mode": "air",
+                            "distance_km": 482.8,
+                            "proportion": 0.2,
+                            "emissions_kg_co2e": 247.0982
+                        }
+                    ],
+                    "source_file": "transport_intermodal_test.csv"
+                }
+            ],
+            "energy": []
+        }
+    },
+    {
+        "entity": "Company C",
+        "total_emissions_kg_co2e": 4502.099,
+        "materials_emissions_kg_co2e": 3490.6863,
+        "transport_emissions_kg_co2e": 1011.4127,
+        "energy_emissions_kg_co2e": 0.0,
+        "breakdown": {
+            "materials": [
+                {
+                    "entity": "Company C",
+                    "category": "materials",
+                    "material": "Aluminum",
+                    "weight_kg": 200.0,
+                    "emissions_kg_co2e": 1457.0863,
+                    "unit": "kg",
+                    "source_file": "sample_materials.csv"
+                },
+                {
+                    "entity": "Company C",
+                    "category": "materials",
+                    "material": "Steel",
+                    "weight_kg": 400.0,
+                    "emissions_kg_co2e": 656.0,
+                    "unit": "kg",
+                    "source_file": "sample_materials.csv"
+                },
+                {
+                    "entity": "Company C",
+                    "category": "materials",
+                    "material": "Steel",
+                    "weight_kg": 840.0,
+                    "emissions_kg_co2e": 1377.6,
+                    "unit": "kg",
+                    "source_file": "sample_materials.csv"
+                }
+            ],
+            "transport": [
+                {
+                    "entity": "Company C",
+                    "category": "transport",
+                    "product": "Aluminum",
+                    "mode": "ship",
+                    "weight_kg": 149.69,
+                    "distance_km": 1931.21,
+                    "tonne_km": 289.0736,
+                    "emissions_kg_co2e": 5.8621,
+                    "unit": "kg",
+                    "source_file": "sample_transport.csv"
+                },
+                {
+                    "entity": "Company C",
+                    "category": "transport",
+                    "product": "Steel",
+                    "mode": "air",
+                    "weight_kg": 272.16,
+                    "distance_km": 2092.14,
+                    "tonne_km": 569.3873,
+                    "emissions_kg_co2e": 973.4172,
+                    "unit": "kg",
+                    "source_file": "sample_transport.csv"
+                },
+                {
+                    "entity": "Company C",
+                    "category": "transport",
+                    "product": "Recycled Steel",
+                    "mode": "rail",
+                    "weight_kg": 399.16,
+                    "distance_km": 2896.81,
+                    "tonne_km": 1156.2943,
+                    "emissions_kg_co2e": 32.1334,
+                    "unit": "kg",
+                    "source_file": "transport_intermodal_test.csv"
+                }
+            ],
+            "energy": []
+        }
+    },
+    {
+        "entity": "Company D",
+        "total_emissions_kg_co2e": 2737.1493,
+        "materials_emissions_kg_co2e": 1348.3147,
+        "transport_emissions_kg_co2e": 1388.8346,
+        "energy_emissions_kg_co2e": 0.0,
+        "breakdown": {
+            "materials": [
+                {
+                    "entity": "Company D",
+                    "category": "materials",
+                    "material": "Aluminum",
+                    "weight_kg": 150.0,
+                    "emissions_kg_co2e": 1092.8147,
+                    "unit": "kg",
+                    "source_file": "sample_materials.csv"
+                },
+                {
+                    "entity": "Company D",
+                    "category": "materials",
+                    "material": "Recycled Steel",
+                    "weight_kg": 350.0,
+                    "emissions_kg_co2e": 255.5,
+                    "unit": "kg",
+                    "source_file": "sample_materials.csv"
+                }
+            ],
+            "transport": [
+                {
+                    "entity": "Company D",
+                    "category": "transport",
+                    "product": "Recycled Steel",
+                    "mode": "rail",
+                    "weight_kg": 326.59,
+                    "distance_km": 1770.27,
+                    "tonne_km": 578.1471,
+                    "emissions_kg_co2e": 16.0667,
+                    "unit": "kg",
+                    "source_file": "sample_transport.csv"
+                },
+                {
+                    "entity": "Company D",
+                    "category": "transport",
+                    "product": "Aluminum",
+                    "mode": "air",
+                    "weight_kg": 199.58,
+                    "distance_km": 4023.35,
+                    "tonne_km": 802.9821,
+                    "emissions_kg_co2e": 1372.7679,
+                    "unit": "kg",
+                    "source_file": "transport_intermodal_test.csv"
+                }
+            ],
+            "energy": []
+        }
+    },
+    {
+        "entity": "Company E",
+        "total_emissions_kg_co2e": 4177.8102,
+        "materials_emissions_kg_co2e": 3679.5072,
+        "transport_emissions_kg_co2e": 498.303,
+        "energy_emissions_kg_co2e": 0.0,
+        "breakdown": {
+            "materials": [
+                {
+                    "entity": "Company E",
+                    "category": "materials",
+                    "material": "Recycled Steel",
+                    "weight_kg": 250.0,
+                    "emissions_kg_co2e": 182.5,
+                    "unit": "kg",
+                    "source_file": "sample_materials.csv"
+                },
+                {
+                    "entity": "Company E",
+                    "category": "materials",
+                    "material": "Aluminum",
+                    "weight_kg": 480.0,
+                    "emissions_kg_co2e": 3497.0072,
+                    "unit": "kg",
+                    "source_file": "sample_materials.csv"
+                }
+            ],
+            "transport": [
+                {
+                    "entity": "Company E",
+                    "category": "transport",
+                    "product": "Aluminum",
+                    "mode": "air",
+                    "weight_kg": 136.08,
+                    "distance_km": 1609.34,
+                    "tonne_km": 218.9951,
+                    "emissions_kg_co2e": 374.3912,
+                    "unit": "kg",
+                    "source_file": "sample_transport.csv"
+                },
+                {
+                    "entity": "Company E",
+                    "category": "transport",
+                    "product": "Aluminum",
+                    "mode": "rail",
+                    "weight_kg": 344.73,
+                    "distance_km": 2735.88,
+                    "tonne_km": 943.139,
+                    "emissions_kg_co2e": 26.2098,
+                    "unit": "kg",
+                    "source_file": "sample_transport.csv"
+                },
+                {
+                    "entity": "Company E",
+                    "category": "transport",
+                    "product": "Steel",
+                    "mode": "ship",
+                    "weight_kg": 997.9,
+                    "distance_km": 4828.02,
+                    "tonne_km": 4817.8927,
+                    "emissions_kg_co2e": 97.702,
+                    "unit": "kg",
+                    "source_file": "transport_intermodal_test.csv"
+                }
+            ],
+            "energy": []
+        }
+    },
+    {
+        "entity": "Company F",
+        "total_emissions_kg_co2e": 5477.7678,
+        "materials_emissions_kg_co2e": 5388.059,
+        "transport_emissions_kg_co2e": 89.7088,
+        "energy_emissions_kg_co2e": 0.0,
+        "breakdown": {
+            "materials": [
+                {
+                    "entity": "Company F",
+                    "category": "materials",
+                    "material": "Aluminum",
+                    "weight_kg": 600.0,
+                    "emissions_kg_co2e": 4371.259,
+                    "unit": "kg",
+                    "source_file": "sample_materials.csv"
+                },
+                {
+                    "entity": "Company F",
+                    "category": "materials",
+                    "material": "Steel",
+                    "weight_kg": 620.0,
+                    "emissions_kg_co2e": 1016.8,
+                    "unit": "kg",
+                    "source_file": "sample_materials.csv"
+                }
+            ],
+            "transport": [
+                {
+                    "entity": "Company F",
+                    "category": "transport",
+                    "product": "Steel",
+                    "mode": "rail",
+                    "weight_kg": 680.39,
+                    "distance_km": 2896.81,
+                    "tonne_km": 1970.9561,
+                    "emissions_kg_co2e": 54.7729,
+                    "unit": "kg",
+                    "source_file": "sample_transport.csv"
+                },
+                {
+                    "entity": "Company F",
+                    "category": "transport",
+                    "product": "Aluminum",
+                    "mode": "ship",
+                    "weight_kg": 204.12,
+                    "distance_km": 2574.94,
+                    "tonne_km": 525.5883,
+                    "emissions_kg_co2e": 10.6584,
+                    "unit": "kg",
+                    "source_file": "sample_transport.csv"
+                },
+                {
+                    "entity": "Company F",
+                    "category": "transport",
+                    "product": "Recycled Steel",
+                    "mode": "ship",
+                    "weight_kg": 371.95,
+                    "distance_km": 3218.68,
+                    "tonne_km": 1197.1733,
+                    "emissions_kg_co2e": 24.2775,
+                    "unit": "kg",
+                    "source_file": "sample_transport.csv"
+                }
+            ],
+            "energy": []
+        }
+    }
+]

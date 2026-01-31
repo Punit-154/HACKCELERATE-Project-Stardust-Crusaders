@@ -1,0 +1,16 @@
+Material,Weight,Unit,Source,Entity
+Steel,500,kg,steel_invoice_jan.pdf,Company A
+Recycled Steel,300,kg,steel_invoice_feb.xlsx,Company B
+Aluminum,200,kg,aluminum_invoice_mar.pdf,Company C
+Steel,750,kg,steel_invoice_apr.csv,Company A
+Aluminum,150,kg,aluminum_invoice_may.xlsx,Company D
+Steel,400,kg,steel_invoice_jul.csv,Company C
+Recycled Steel,250,kg,steel_invoice_aug.xlsx,Company E
+Aluminum,600,kg,aluminum_invoice_sep.pdf,Company F
+Steel,900,kg,steel_invoice_oct.csv,Company B
+Recycled Steel,350,kg,steel_invoice_nov.xlsx,Company D
+Aluminum,480,kg,aluminum_invoice_dec.pdf,Company E
+Steel,620,kg,steel_invoice_jan2.csv,Company F
+Recycled Steel,275,kg,steel_invoice_feb2.xlsx,Company A
+Aluminum,510,kg,aluminum_invoice_mar2.pdf,Company B
+Steel,840,kg,steel_invoice_apr2.csv,Company C

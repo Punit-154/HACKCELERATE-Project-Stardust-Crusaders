@@ -1,0 +1,6 @@
+Product,Weight_lbs,Distance_miles,Origin,Destination,Mode,Entity
+Steel,1100,2000,Mumbai,London,intermodal,Company A
+Aluminum,660,1500,Delhi,Paris,intermodal,Company B
+Recycled Steel,880,1800,Chennai,Berlin,rail,Company C
+Aluminum,440,2500,Bangalore,Tokyo,air,Company D
+Steel,2200,3000,Kolkata,New York,ship,Company E

@@ -1,0 +1,100 @@
+======================================================================
+CARBON FOOTPRINT REPORT
+Top 5 Entities with Lowest Emissions (Materials + Transport)
+Generated: 2026-01-30 21:57:01
+======================================================================
+
+======================================================================
+RANK #1: Company D
+======================================================================
+Total Relevant Footprint: 2737.15 kg CO2e
+
+Breakdown by Category:
+  • Materials:     1348.31 kg CO2e (49.3%)
+  • Transport:     1388.83 kg CO2e (50.7%)
+
+  Materials Details:
+    - Aluminum: 150.0 kg -> 1092.81 kg CO2e
+    - Recycled Steel: 350.0 kg -> 255.50 kg CO2e
+
+  Transport Details:
+    - Recycled Steel via rail: 578.15 t*km -> 16.07 kg CO2e
+    - Aluminum via air: 802.98 t*km -> 1372.77 kg CO2e
+
+======================================================================
+RANK #2: Company A
+======================================================================
+Total Relevant Footprint: 2944.72 kg CO2e
+
+Breakdown by Category:
+  • Materials:     2250.75 kg CO2e (76.4%)
+  • Transport:      693.97 kg CO2e (23.6%)
+
+  Materials Details:
+    - Steel: 500.0 kg -> 820.00 kg CO2e
+    - Steel: 750.0 kg -> 1230.00 kg CO2e
+    - Recycled Steel: 275.0 kg -> 200.75 kg CO2e
+
+  Transport Details:
+    - Steel via ship: 2408.95 t*km -> 48.85 kg CO2e
+    - Steel via ship: 3211.93 t*km -> 65.13 kg CO2e
+    - Steel via intermodal (3 legs): 0.00 t*km -> 579.99 kg CO2e
+
+======================================================================
+RANK #3: Company E
+======================================================================
+Total Relevant Footprint: 4177.81 kg CO2e
+
+Breakdown by Category:
+  • Materials:     3679.51 kg CO2e (88.1%)
+  • Transport:      498.30 kg CO2e (11.9%)
+
+  Materials Details:
+    - Recycled Steel: 250.0 kg -> 182.50 kg CO2e
+    - Aluminum: 480.0 kg -> 3497.01 kg CO2e
+
+  Transport Details:
+    - Aluminum via air: 219.00 t*km -> 374.39 kg CO2e
+    - Aluminum via rail: 943.14 t*km -> 26.21 kg CO2e
+    - Steel via ship: 4817.89 t*km -> 97.70 kg CO2e
+
+======================================================================
+RANK #4: Company C
+======================================================================
+Total Relevant Footprint: 4502.10 kg CO2e
+
+Breakdown by Category:
+  • Materials:     3490.69 kg CO2e (77.5%)
+  • Transport:     1011.41 kg CO2e (22.5%)
+
+  Materials Details:
+    - Aluminum: 200.0 kg -> 1457.09 kg CO2e
+    - Steel: 400.0 kg -> 656.00 kg CO2e
+    - Steel: 840.0 kg -> 1377.60 kg CO2e
+
+  Transport Details:
+    - Aluminum via ship: 289.07 t*km -> 5.86 kg CO2e
+    - Steel via air: 569.39 t*km -> 973.42 kg CO2e
+    - Recycled Steel via rail: 1156.29 t*km -> 32.13 kg CO2e
+
+======================================================================
+RANK #5: Company F
+======================================================================
+Total Relevant Footprint: 5477.77 kg CO2e
+
+Breakdown by Category:
+  • Materials:     5388.06 kg CO2e (98.4%)
+  • Transport:       89.71 kg CO2e (1.6%)
+
+  Materials Details:
+    - Aluminum: 600.0 kg -> 4371.26 kg CO2e
+    - Steel: 620.0 kg -> 1016.80 kg CO2e
+
+  Transport Details:
+    - Steel via rail: 1970.96 t*km -> 54.77 kg CO2e
+    - Aluminum via ship: 525.59 t*km -> 10.66 kg CO2e
+    - Recycled Steel via ship: 1197.17 t*km -> 24.28 kg CO2e
+
+======================================================================
+END OF REPORT
+======================================================================

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Emissions Ranking Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>🌍 Emissions Ranking Dashboard</h1>
+        <p>Last Update: <span id="lastUpdate">Loading...</span></p>
+
+        <h2>Materials Ranking</h2>
+        <table id="materialsTable">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Material</th>
+                    <th>Emissions (kg CO2e)</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <h2>Transport Ranking</h2>
+        <table id="transportTable">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Mode</th>
+                    <th>Emissions (kg CO2e)</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <!-- Debug Log Area -->
+        <div style="margin-top: 20px; padding: 10px; background: #eee; border: 1px solid #ccc; display: block;">
+            <h3>Debug Log</h3>
+            <pre id="debugLog" style="font-family: monospace; color: red;">Initializing...</pre>
+        </div>
+    </div>
+
+    <script>
+        const debugLog = document.getElementById('debugLog');
+        function log(msg) {
+            console.log(msg);
+            // Append with timestamp
+            const time = new Date().toLocaleTimeString();
+            debugLog.innerText += `[${time}] ${msg}\n`;
+        }
+
+        async function fetchRankings() {
+            log("Starting fetchRankings...");
+            try {
+                // Use absolute URL to support file:// opening if CORS allows
+                const API_URL = "http://127.0.0.1:5000/api/rankings/all";
+                log(`Fetching from: ${API_URL}`);
+
+                const response = await fetch(API_URL);
+                log(`Response status: ${response.status}`);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                log(`Data received. Status: ${data.status}`);
+
+                if (data.status !== 'success') {
+                    throw new Error(data.message || 'API reported failure');
+                }
+
+                document.getElementById('lastUpdate').innerText = data.last_update || new Date().toLocaleString();
+
+                // MATERIALS
+                const materialsBody = document.querySelector('#materialsTable tbody');
+                if (data.materials && data.materials.length > 0) {
+                    log(`Rendering ${data.materials.length} materials`);
+                    materialsBody.innerHTML = data.materials.map(item => `
+                        <tr>
+                            <td>${item.rank}</td>
+                            <td>${item.material}</td>
+                            <td>${Number(item.emissions).toFixed(2)}</td>
+                        </tr>
+                    `).join('');
+                } else {
+                    log("No materials data found");
+                    materialsBody.innerHTML = '<tr><td colspan="3">No data available</td></tr>';
+                }
+
+                // TRANSPORT
+                const transportBody = document.querySelector('#transportTable tbody');
+                if (data.transport && data.transport.length > 0) {
+                    log(`Rendering ${data.transport.length} transport modes`);
+                    transportBody.innerHTML = data.transport.map(item => `
+                        <tr>
+                            <td>${item.rank}</td>
+                            <td>${item.mode}</td>
+                            <td>${Number(item.emissions).toFixed(2)}</td>
+                        </tr>
+                    `).join('');
+                } else {
+                    log("No transport data found");
+                    transportBody.innerHTML = '<tr><td colspan="3">No data available</td></tr>';
+                }
+
+                log("Update complete.");
+
+            } catch (error) {
+                log(`ERROR: ${error.message}`);
+                document.getElementById('lastUpdate').innerText = "Update Failed";
+                document.getElementById('lastUpdate').style.color = "red";
+            }
+        }
+
+        // Run immediately
+        log("Script loaded. Calling fetch...");
+        fetchRankings();
+    </script>
+</body>
+
+</html>

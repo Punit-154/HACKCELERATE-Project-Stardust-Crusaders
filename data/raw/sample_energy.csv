@@ -1,0 +1,9 @@
+EnergyType,Consumption,Unit,Location,Entity
+Electricity,5000,kWh,Mumbai Facility,Company A
+Natural Gas,2000,m3,Delhi Plant,Company B
+Electricity,3000,kWh,Bangalore Office,Company C
+Diesel,500,liters,Chennai Warehouse,Company A
+Electricity,2500,kWh,Pune Factory,Company D
+Natural Gas,1500,m3,Kolkata Plant,Company E
+Electricity,1800,kWh,Hyderabad Office,Company B
+Diesel,300,liters,Ahmedabad Depot,Company C

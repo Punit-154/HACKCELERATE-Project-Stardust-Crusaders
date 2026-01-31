@@ -1,0 +1,32 @@
+[
+    {
+        "material": "Steel",
+        "weight_kg": 500.0,
+        "emissions_kg_co2e": 820.0,
+        "unit": "kg"
+    },
+    {
+        "material": "Recycled Steel",
+        "weight_kg": 300.0,
+        "emissions_kg_co2e": 219.0,
+        "unit": "kg"
+    },
+    {
+        "material": "Aluminum",
+        "weight_kg": 200.0,
+        "emissions_kg_co2e": 1457.0863286,
+        "unit": "kg"
+    },
+    {
+        "material": "Steel",
+        "weight_kg": 750.0,
+        "emissions_kg_co2e": 1230.0,
+        "unit": "kg"
+    },
+    {
+        "material": "Aluminum",
+        "weight_kg": 150.0,
+        "emissions_kg_co2e": 1092.81474645,
+        "unit": "kg"
+    }
+]
