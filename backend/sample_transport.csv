@@ -1,0 +1,19 @@
+Product,Weight_lbs,Distance_miles,Origin,Destination,Mode,Entity
+Steel,1100,500,Chennai,Mumbai,Truck,Company A
+Aluminum,330,1200,Kolkata,Delhi,Ship,Company C
+Recycled Steel,660,800,Hyderabad,Pune,Truck,Company B
+Steel,2200,1500,Ahmedabad,Chennai,Ship,Company A
+Aluminum,330,300,Bangalore,Mumbai,Truck,Company D
+Steel,880,400,Mumbai,Pune,Truck,Company C
+Recycled Steel,440,700,Chennai,Bangalore,Truck,Company E
+Steel,1500,1800,Delhi,Mumbai,Rail,Company F
+Aluminum,500,900,Chennai,Kolkata,Rail,Company B
+Recycled Steel,720,1100,Pune,Delhi,Rail,Company D
+Steel,2000,2200,Mumbai,London,Ship,Company A
+Aluminum,450,1600,Chennai,Dubai,Ship,Company F
+Steel,600,1300,Delhi,Singapore,Air,Company C
+Aluminum,300,1000,Bangalore,Doha,Air,Company E
+Recycled Steel,550,1400,Hyderabad,Dubai,Air,Company B
+Steel,980,600,Pune,Ahmedabad,Truck,Company D
+Aluminum,760,1700,Kolkata,Mumbai,Rail,Company E
+Recycled Steel,820,2000,Chennai,Delhi,Ship,Company F
